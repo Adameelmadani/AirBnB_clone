@@ -1,0 +1,27 @@
+.container .places h1{
+  font-size: 30px;
+}
+.container .places article h2{
+  width: 390px;
+  padding: 20px;
+  margin: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  border-color: rgb(255, 90, 95);
+  font-size: 30px;
+  text-align: center;
+}
+.places article{
+  position: relative;
+}
+.home{
+  display: inline-block;
+}
+.house{
+  display: inline-block;
+}
+.suite{
+  position: absolute;
+  left: 250px;
+}
