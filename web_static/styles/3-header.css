@@ -6,4 +6,5 @@ header{
   border-style: solid;
   border-bottom-width: 1px;
   border-bottom-color: rgb(204, 204, 204);
+  background: url(../images/logo.png) no-repeat 20px center;
 }
