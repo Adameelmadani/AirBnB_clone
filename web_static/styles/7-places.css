@@ -1,7 +1,9 @@
-.container .places h1{
+.places h1{
   font-size: 30px;
+  width: 100%;
 }
-.container .places article h2{
+
+.places article{
   width: 390px;
   padding: 20px;
   margin: 20px;
@@ -10,15 +12,15 @@
   border-radius: 4px;
   border-color: rgb(255, 90, 95);
   font-size: 30px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
-.home{
-  display: inline-block;
+.places article h2{
+  font-size: 30px;
+  margin: auto;
 }
-.house{
-  display: inline-block;
-}
-.suite{
-  position: absolute;
-  left: 600px;
+.places{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
