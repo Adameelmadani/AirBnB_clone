@@ -1,0 +1,15 @@
+footer{
+  background-color: white;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  border: 0;
+  border-style: solid;
+  border-top-width: 1px;
+  border-top-color: rgb(204, 204, 204);
+}
+p{
+  text-align: center;
+  margin-top: 21px;
+}
