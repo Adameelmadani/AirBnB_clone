@@ -12,9 +12,6 @@
   font-size: 30px;
   text-align: center;
 }
-.places article{
-  position: relative;
-}
 .home{
   display: inline-block;
 }
@@ -23,5 +20,5 @@
 }
 .suite{
   position: absolute;
-  left: 250px;
+  left: 600px;
 }
