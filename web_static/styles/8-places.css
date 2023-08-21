@@ -1,0 +1,118 @@
+.places h1{
+  font-size: 30px;
+  width: 100%;
+}
+
+.places article{
+  width: 390px;
+  padding: 20px;
+  margin: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  border-color: rgb(255, 90, 95);
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+}
+.places article h2{
+  font-size: 30px;
+  margin: auto;
+}
+.places{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
+.places article{
+  display: flex;
+  flex-direction: column;
+  align-items:end;
+  justify-content: space-between;
+  padding-bottom: 50px; 
+}
+.title-price{
+  display: flex;
+  flex-direction: row;
+}
+.price_by_night{
+  color:rgb(255, 90, 95);
+  border-style: solid;
+  border-width: 4px;
+  border-radius: 60px;
+  border-color:rgb(255, 90, 95);
+  min-width: 60px;
+  height: 60px;
+  font-size: 30px;
+  position: relative;
+  margin-top: 3px;
+}
+.price_by_night span{
+  position: absolute;
+  left: 5px;
+  top: 14px;
+}
+.title{
+  height: 100%;
+  margin-right: 70px;
+}
+.information{
+  height: 80px;
+  border-style: solid;
+  border-width: 0;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-top-color: rgb(221, 221, 221);
+  border-bottom-color: rgb(221, 221, 221);
+  display: flex;
+  flex-direction: row;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 7px;
+}
+.max_guest{
+  width: 100px;
+  margin-left: 30px;
+  background: url(../images/icon_group.png) no-repeat 20px center;
+  position: relative;
+}
+.max_guest span{
+  position: absolute;
+  bottom: 0px;
+  left: 9px;
+}
+.number_rooms{
+  width: 100px;
+  margin-left: 30px;
+  background: url(../images/icon_bed.png) no-repeat 20px center;
+  position: relative;
+}
+.number_rooms span{
+  position: absolute;
+  bottom: 0px;
+  left: 5px;
+}
+.number_bathrooms{
+  width: 100px;
+  margin-left: 30px;
+  background: url(../images/icon_bath.png) no-repeat 20px center;
+  position: relative;
+}
+.number_bathrooms span{
+  position: absolute;
+  bottom: 0px;
+  left: 2px;
+}
+.user{
+  font-size: 16px;
+}
+.user span{
+  margin-right: 237px;
+}
+.description{
+  font-size: 14px;
+  line-height: 17px;
+}
